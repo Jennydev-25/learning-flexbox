@@ -1,0 +1,23 @@
+/* ── VARIABLES GLOBALES ──*/
+
+:root {
+  /* Colores */
+  --color-bg:         #e0e0e0;
+  --color-card:       #ffffff;
+  --color-title:      #1a1a1a;
+  --color-text:       #333333;
+  --color-link:       #1a6bcc;
+  --color-link-hover: #0a4a9e;
+
+  /* Tipografía */
+  --font-title: "Montserrat", sans-serif;
+  --font-body:  "Caveat", cursive;
+
+  /* Tarjeta */
+  --card-radius:  12px;
+  --card-shadow:  0 2px 8px rgba(0, 0, 0, 0.12);
+  --card-padding: 24px;
+
+  /* Espaciado */
+  --gap: 20px;
+}
