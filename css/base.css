@@ -1,0 +1,8 @@
+/* ── BASE ── */
+body {
+  background-color: var(--color-bg);
+  font-family: var(--font-body);
+  color: var(--color-text);
+  min-height: 100vh;
+  padding: 32px 16px;
+}
