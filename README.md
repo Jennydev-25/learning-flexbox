@@ -116,7 +116,11 @@ Diseño de referencia proporcionado:
 
 ## 📸 Resultado final
 
-*Captura añadida al finalizar el proyecto.*
+### Desktop
+![screenshot desktop](assets/imgs/desktop.png)
+
+### Mobile
+![screenshot mobile](assets/imgs/mobile.png)
 
 ---
 
