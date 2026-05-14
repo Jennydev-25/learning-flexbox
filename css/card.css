@@ -1,0 +1,51 @@
+/* ── CARD (mobile-first) ── */
+.card {
+  background-color: var(--color-card);
+  border-radius: var(--card-radius);
+  box-shadow: var(--card-shadow);
+  padding: var(--card-padding);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+}
+
+.card__image {
+  width: 200px;
+}
+
+.card__image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card__title {
+  font-family: var(--font-title);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--color-title);
+}
+
+.card__text {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.card__link {
+  color: var(--color-link);
+  font-size: 1.05rem;
+  text-decoration: underline;
+  align-self: center;
+}
+
+.card__link:hover {
+  color: var(--color-link-hover);
+}
