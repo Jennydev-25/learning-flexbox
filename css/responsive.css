@@ -1,0 +1,22 @@
+/* ── DESKTOP (>= 768px) ── */
+@media (min-width: 768px) {
+  .main-title {
+    text-align: center;
+  }
+
+  .card {
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    gap: 24px;
+  }
+
+  .card__image {
+    flex-shrink: 0;
+    width: 160px;
+  }
+
+  .card__link {
+    align-self: flex-start;
+  }
+}
